@@ -1,3 +1,99 @@
 body{
     background-color: rgb(248, 248, 238);
 }
+nav{
+    display: flex;
+    background-color:rgb(237, 237, 231);
+    height:80px;
+    width:39.5cm;
+    margin: 0.4cm;
+    align-items: center;
+  }
+.links li{
+    display: inline;
+    margin-left:0 1cm;
+    margin-right: 0 1cm;
+}
+.links li a{
+    text-decoration: none;
+    color:black;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    font-size: 20px;
+    
+}
+li a:hover{
+    color:#33b4eb;
+}
+.logo{
+    width:0.6cm;
+    height:0.6cm;
+    margin-right:1cm ;
+    right: 5cm;
+}
+#Portfolio{
+    font-size:x-large;
+    padding-left: 5cm;
+    padding-right: 6cm;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 1cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    
+    margin-left: 3.1cm;
+    margin-right: 3.1cm;
+    display: inline-block;
+}
+#servers{
+    width: 4.5cm;
+    height: 10.5cm;
+    background-color:rgb(241, 241, 237);
+    padding: .3cm;
+    position: absolute;
+    
+}
+p{
+    display: inline;
+}
+.p_serv{
+    color: cadetblue;
+}
+#pic1{
+    
+    background-color:white;
+    width: 7.9cm;
+    height: 7.9cm;
+    border-radius:  1ch;
+    margin-left:14.5cm ;
+}
+#pic2{
+    
+    background-color:rgb(221, 221, 215);
+    width: 7.5cm;
+    height: 7.5cm;
+    border-radius:  1ch;
+    margin: 0.2cm;
+}
+#my_photo{
+    width: 7cm;
+    height: 7cm;
+    border-radius: 50%;
+    padding: 0.2cm;
+}
+#intro{
+    background-color:rgb(241, 241, 237);
+    width: 7cm;
+    height: 9.5cm;
+    padding: .4cm;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 3cm;
+    height: 1cm;
+}

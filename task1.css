@@ -1,3 +1,74 @@
 body{
     background-color: rgb(248, 248, 238);
 }
+h1{
+    padding: 5cm;
+}
+h2{
+    padding-top: 10px;
+    
+
+}
+.logo{
+    width:0.6cm;
+    height:0.6cm;
+    margin-right:0.3cm ;
+}
+div{
+    display: inline-block;
+    text-align: center;
+}
+#picture{
+    color: aliceblue;
+    width: 450px;
+    height: 750px;
+    background-image:url('flower.jpg');
+}
+button{
+    border-radius: 5ch;
+    width: 400px;
+    height: 45px;
+    align-items: center;
+    font-size: large;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #c2c2c2;
+    margin: 0px;
+    margin-left: 40px;
+    
+}
+span{
+    display: block;
+    width: 40px;
+    margin: auto;
+    margin-top: -10px;
+    font-size: 14px;
+    background:rgb(248, 248, 238);
+}
+input{
+    border-radius: 1ch;
+    width: 500px;
+    height: 50px;
+    border-color: #aca4a4;
+    border-width: 1px;
+    margin: 0.3cm;
+}
+.fa-eye{
+    position: absolute;
+    right: 8.5cm;
+}
+#sign{
+    background-color: rgba(109, 53, 13, 0.671);
+    border-radius: 5ch;
+    width: 200px;
+    height: 40px;
+    color: aliceblue;
+    margin: 0.2cm;
+}
+label{
+    position: absolute;
+    left:19cm;
+    
+}
